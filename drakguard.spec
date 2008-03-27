@@ -7,7 +7,7 @@ License:  GPL
 Group:    System/Configuration/Other
 Url:      http://www.mandriva.com/
 BuildRequires: perl-MDK-Common-devel gettext
-Requires: drakxtools
+Requires: drakxtools >= 10.22
 Requires: drakx-net >= 0.32
 BuildRoot: %_tmppath/%name-%version-buildroot
 BuildArch: noarch

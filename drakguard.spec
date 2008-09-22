@@ -1,8 +1,8 @@
 Summary:  Parental control tool
 Name:     drakguard
-Version:  0.5
-Release:  %mkrel 3
-Source0:  %name-%version.tar.bz2
+Version:  0.6
+Release:  %mkrel 1
+Source0:  %name-%version.tar.lzma
 License:  GPL
 Group:    System/Configuration/Other
 Url:      http://www.mandriva.com/

@@ -1,6 +1,6 @@
 Summary:  Parental control tool
 Name:     drakguard
-Version:  0.7.5
+Version:  0.7.6
 Release:  %mkrel 1
 Source0:  %name-%version.tar.lzma
 License:  GPL

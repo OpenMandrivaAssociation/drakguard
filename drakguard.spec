@@ -1,7 +1,7 @@
 Summary:  Parental control tool
 Name:     drakguard
 Version:  0.7.7
-Release:  %mkrel 3
+Release:  %mkrel 4
 Source0:  %name-%version.tar.lzma
 License:  GPL
 Group:    System/Configuration/Other
@@ -11,6 +11,7 @@ Requires: drakxtools >= 10.22
 Requires: drakx-net >= 0.41
 BuildRoot: %_tmppath/%name-%version-buildroot
 BuildArch: noarch
+Obsoletes: drakguard-policy
 
 %description
 This tool allows to configure parental control. It can block access to

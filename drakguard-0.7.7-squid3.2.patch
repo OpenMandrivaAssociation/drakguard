@@ -1,0 +1,13 @@
+--- drakguard/bin/drakguard	2013/07/05 12:36:48	8593
++++ drakguard/bin/drakguard	2013/07/10 07:29:11	8606
+@@ -579,7 +579,9 @@
+ sub enable_transparent_proxy {
+     my ($port) = @_;
+     #- FIXME: use network::squid once it is rewritten to be more gentle with the config file
+-    subst_config_line($network::squid::squid_conf_file, "http_port $port transparent\n");
++    # Only use transparent proxy if squid version < 3.2. Handle upgrades nicely
++    substr(`rpm -q squid`, 6, 3) < 3.2 ?  subst_config_line($network::squid::squid_conf_file, "http_port $port transparent\n") :
++       subst_config_line($network::squid::squid_conf_file, "http_port $port\n");
+ }
+ 
+ #- mostly duplicated for MDK::Common::System::getVarsFromSh

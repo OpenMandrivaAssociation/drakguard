@@ -1,7 +1,7 @@
 Summary:	Parental control tool
 Name:		drakguard
 Version:	0.7.7
-Release:	13
+Release:	14
 License:	GPLv2
 Group:		System/Configuration/Other
 Url:		http://www.mandriva.com/

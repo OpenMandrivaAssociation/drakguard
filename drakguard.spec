@@ -1,15 +1,11 @@
 Summary:	Parental control tool
 Name:		drakguard
-Version:	0.7.7
-Release:	17
+Version:	1.3
+Release:	1
 License:	GPLv2
 Group:		System/Configuration/Other
-Url:		http://www.mandriva.com/
-Source0:	%{name}-%{version}.tar.lzma
-Patch0:		drakguard-0.7.7-fix_acl_enabled_test.patch
-Patch1:		drakguard-0.7.7-use-kerneltz-option.patch
-Patch2:		drakguard-0.7.7-squid3.2.patch
-Patch3:		drakguard-0.7.7-urpmi.patch
+Url:		http://gitweb.mageia.org/software/drakguard
+Source0:	%{name}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	gettext
 BuildRequires:	perl-MDK-Common-devel

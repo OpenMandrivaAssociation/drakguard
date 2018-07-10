@@ -1,7 +1,7 @@
 Summary:	Parental control tool
 Name:		drakguard
 Version:	1.3
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/Configuration/Other
 Url:		http://gitweb.mageia.org/software/drakguard

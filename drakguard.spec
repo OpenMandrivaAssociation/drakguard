@@ -18,7 +18,7 @@ web sites and restrict connection during a specified timeframe.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %make

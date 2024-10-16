@@ -4,7 +4,7 @@ Version:	1.3
 Release:	2
 License:	GPLv2
 Group:		System/Configuration/Other
-Url:		http://gitweb.mageia.org/software/drakguard
+Url:		https://gitweb.mageia.org/software/drakguard
 Source0:	%{name}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	gettext

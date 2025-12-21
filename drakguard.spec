@@ -7,6 +7,7 @@ Group:		System/Configuration/Other
 Url:		https://gitweb.mageia.org/software/drakguard
 Source0:	%{name}-%{version}.tar.xz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	gettext
 BuildRequires:	perl-MDK-Common-devel
 Requires:	drakxtools >= 10.22
